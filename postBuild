@@ -1,0 +1,6 @@
+#!/bin/bash -l
+set -euo pipefail
+
+# Create multiple python environments
+mamba env create --file environment.python37.yml
+mamba env create --file environment.python311.yml

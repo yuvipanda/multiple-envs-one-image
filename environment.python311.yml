@@ -1,0 +1,12 @@
+# Just an example environment
+name: python-3.11
+
+channels:
+  - conda-forge
+  - nodefaults
+
+dependencies:
+  - python=3.11
+  - ipykernel
+  - numpy
+  - scipy
